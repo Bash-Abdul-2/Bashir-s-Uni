@@ -1,0 +1,152 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+}
+
+/* .login-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .9);
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+}
+
+.login-form-container form{
+    background: #fff;
+    border: .2rem solid #222;
+    width: 40rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    margin: 2rem;
+}
+
+.login-form-container form h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+}
+.login-form-container form span{
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.login-form-container form .box{
+    margin: .7rem 0;
+    font-size: 1.6rem;
+    border: .2rem solid #222;
+    border-radius: .5rem;
+    padding: 1rem 1.2rem;
+    color: #222;
+    text-transform: none;
+    width: 100%;
+}
+
+.login-form-container form .checkbox{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem 0;
+}
+
+.login-form-container form .checkbox label{
+    font-size: 1.5rem;
+    color: #555;
+    cursor: pointer;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    color: #fff;
+    background: green;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background: blue;
+    font-weight: 500;
+}
+
+.login-form-container form .btn{
+    text-align: center;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.login-form-container form p{
+    padding-top: .8rem;
+    color: #222;
+    font-size: 1.5rem;
+}
+.login-form-container form p a{
+    color: green;
+    text-decoration: underline;
+} */
+
+body{
+    background: #111;
+}
+section{
+    padding: 3rem 5%
+}
+.stuff .box-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.stuff .box-container .box{
+    border-radius: 1rem;
+    overflow: hidden;
+    flex: 1 1 30rem;
+    background: #444;
+}
+.stuff .box-container .box .image{
+    width: 100%;
+    overflow: hidden;
+    height: 25rem;
+}
+.stuff .box-container .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stuff .box-container .box .content{
+    padding: 3rem;
+    /* text-align: center; */
+}
+
+.stuff .box-container .box .content h3{
+    font-size: 2rem;
+    color: white;
+}
+.stuff .box-container .box .content span{
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 0;
+}
+.stuff .box-container .box .content p{
+    font-size: 1.7rem;
+    color: white;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
